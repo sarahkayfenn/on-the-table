@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Lato');
+@import 'partials/colors'; //colors
+@import 'partials/prefix-mixins';
+@import 'partials/layout'; // responsive grid and media queries
+@import 'partials/typography'; //typography
+@import 'partials/header'; //header
+@import 'partials/summary'; //summary
+@import 'partials/requirements'; //requirements
+
+// fonts
+
+$primary-font: 'Lato', sans-serif;
+$secondary-font: 'Alegreya', serif;
+
+/* -------------------------------- 
+
+xBackground 
+
+-------------------------------- */
+
+body {
+	max-width: 100%;
+	width: 1200px;
+	margin: auto;
+	/* this is the page background */
+	background-color: $white;
+}
